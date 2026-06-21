@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicons/favicon.ico">
+    <link rel="apple-touch-icon" href="images/favicons/apple.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicons/android-icon-192x192.png">
+    <meta name="keywords" content="Shut down Samsung services, cookie policy">
+    <meta name="description" content="Cookie Policy for Closed by Samsung website - compliant with GDPR, 152-FZ, and CCPA.">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    
+    <title>Cookie Policy | Closed by Samsung</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: #f5f7fc;
+            color: #1e2a3a;
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, #1428A0, #3B78E7);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            display: inline-block;
+            margin-bottom: 0.3rem;
+        }
+
+        .logo a {
+            background: linear-gradient(135deg, #1428A0, #3B78E7);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            text-decoration: none;
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: #4a627a;
+            margin-top: 0.3rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 0.8rem;
+            color: #3B78E7;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Content */
+        .policy-content {
+            background: white;
+            border-radius: 1.5rem;
+            padding: 2.5rem 3rem;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+            border: 1px solid #e9edf2;
+        }
+
+        .policy-content h1 {
+            font-size: 2rem;
+            color: #1428A0;
+            margin-bottom: 0.3rem;
+        }
+
+        .policy-content .last-updated {
+            color: #6c86a3;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            display: block;
+        }
+
+        .policy-content h2 {
+            font-size: 1.4rem;
+            color: #1e2a3a;
+            margin-top: 2rem;
+            margin-bottom: 0.8rem;
+            padding-top: 1rem;
+            border-top: 1px solid #eef2f6;
+        }
+
+        .policy-content h2:first-of-type {
+            border-top: none;
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+        .policy-content h3 {
+            font-size: 1.1rem;
+            color: #2c3e66;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .policy-content p {
+            margin-bottom: 1rem;
+            color: #2d3a4b;
+        }
+
+        .policy-content ul, .policy-content ol {
+            margin: 0.8rem 0 1.2rem 1.8rem;
+            color: #2d3a4b;
+        }
+
+        .policy-content li {
+            margin-bottom: 0.4rem;
+        }
+
+        .policy-content a {
+            color: #1428A0;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        .policy-content a:hover {
+            border-bottom-color: #1428A0;
+        }
+
+        .policy-content strong {
+            color: #1428A0;
+        }
+
+        /* Table styles */
+        .cookie-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0 1.5rem;
+            font-size: 0.9rem;
+            background: #fafbfd;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .cookie-table thead {
+            background: #eef2f6;
+        }
+
+        .cookie-table th {
+            text-align: left;
+            padding: 0.8rem 1rem;
+            font-weight: 600;
+            color: #1e2a3a;
+            border-bottom: 2px solid #dce2eb;
+        }
+
+        .cookie-table td {
+            padding: 0.8rem 1rem;
+            border-bottom: 1px solid #e9edf2;
+            color: #2d3a4b;
+        }
+
+        .cookie-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .cookie-table tbody tr:hover {
+            background: #f0f4fa;
+        }
+
+        /* Note boxes */
+        .note-box {
+            background: #eef2ff;
+            border-left: 4px solid #1428A0;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            margin: 1.2rem 0;
+        }
+
+        .note-box.important {
+            background: #fef3e8;
+            border-left-color: #e67e22;
+        }
+
+        .note-box p {
+            margin-bottom: 0;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #6c819a;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 2rem;
+        }
+
+        footer a {
+            color: #3B78E7;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 700px) {
+            body {
+                padding: 1rem;
+            }
+            .policy-content {
+                padding: 1.5rem;
+            }
+            .policy-content h1 {
+                font-size: 1.6rem;
+            }
+            .cookie-table {
+                font-size: 0.8rem;
+            }
+            .cookie-table th,
+            .cookie-table td {
+                padding: 0.5rem 0.6rem;
+            }
+            .cookie-table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="logo"><a href="index.html">About cookies</a></div>
+        <div class="tagline">Cookie Policy — Transparency About Data Collection</div>
+        <a href="index.html" class="back-link">← Back to main page</a>
+    </div>
+
+    <div class="policy-content">
+        <h1>Cookie Policy</h1>
+        <span class="last-updated"><strong>Last updated:</strong> June 2026</span>
+
+        <p>This Cookie Policy explains how <strong>"Closed by Samsung"</strong> ("we", "us", or "our") uses cookies and similar tracking technologies on our website. We are committed to protecting your privacy and ensuring transparency about how we collect and process your data.</p>
+
+        <h2>1. What are cookies?</h2>
+        <p>Cookies are small text files that are stored on your device (computer, tablet, smartphone) when you visit a website. They are widely used to make websites work more efficiently, enhance user experience, and provide information to website owners.</p>
+        <p>We also use similar technologies such as local storage, session storage, and web beacons (collectively referred to as "cookies" in this policy).</p>
+
+        <h2>2. What types of cookies do we use?</h2>
+        <p>We use the following categories of cookies:</p>
+
+        <table class="cookie-table">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Description</th>
+                    <th>Legal Basis</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Strictly Necessary</strong></td>
+                    <td>Essential for the website to function properly. Enable basic features like page navigation, security, and accessibility. You cannot opt out.</td>
+                    <td>Legitimate interest / Consent exemption (GDPR Art. 6(1)(f), 152-FZ Art. 2)</td>
+                </tr>
+                <tr>
+                    <td><strong>Performance / Analytics</strong></td>
+                    <td>Collect anonymous information about how visitors use our website (e.g., page visits, error messages). Used to improve our site.</td>
+                    <td>Consent (GDPR Art. 6(1)(a), 152-FZ Art. 9, CCPA)</td>
+                </tr>
+                <tr>
+                    <td><strong>Functionality</strong></td>
+                    <td>Remember your preferences (e.g., language, region) to provide enhanced, personalized features.</td>
+                    <td>Consent</td>
+                </tr>
+                <tr>
+                    <td><strong>Targeting / Advertising</strong></td>
+                    <td>We do not currently use advertising cookies. If implemented in the future, we will update this policy and obtain explicit consent.</td>
+                    <td>N/A</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>3. Specific cookies we use</h2>
+
+        <h3>A. Hosting cookies (GitHub Pages)</h3>
+        <p>Our website is hosted on <strong>GitHub Pages</strong>, a service provided by GitHub, Inc. GitHub Pages may place strictly necessary cookies to ensure the proper functioning of the hosting service:</p>
+
+        <table class="cookie-table">
+            <thead>
+                <tr>
+                    <th>Cookie Name</th>
+                    <th>Purpose</th>
+                    <th>Duration</th>
+                    <th>Type</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>_gh_sess</code></td>
+                    <td>GitHub session cookie for secure authentication and hosting functionality</td>
+                    <td>Session</td>
+                    <td>Necessary</td>
+                </tr>
+                <tr>
+                    <td><code>logged_in</code></td>
+                    <td>Indicates whether you are logged into a GitHub account (if applicable)</td>
+                    <td>Session</td>
+                    <td>Necessary</td>
+                </tr>
+                <tr>
+                    <td><code>user_session</code></td>
+                    <td>Maintains user session for GitHub services</td>
+                    <td>Session</td>
+                    <td>Necessary</td>
+                </tr>
+                <tr>
+                    <td><code>dotcom_user</code></td>
+                    <td>Used for GitHub user identification</td>
+                    <td>Session</td>
+                    <td>Necessary</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="note-box">
+            <p><strong>📌 Note:</strong> These cookies are essential for the hosting platform to operate and are set by GitHub. We do not control these cookies. For more information, please review <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub's Privacy Policy</a>.</p>
+        </div>
+
+        <h3>B. Analytics cookies (Yandex Metrica)</h3>
+        <p>We use <strong>Yandex Metrica</strong>, a web analytics service provided by Yandex LLC, to analyze website traffic and user behavior. Yandex Metrica uses the following cookies:</p>
+
+        <table class="cookie-table">
+            <thead>
+                <tr>
+                    <th>Cookie Name</th>
+                    <th>Purpose</th>
+                    <th>Duration</th>
+                    <th>Type</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>_ym_uid</code></td>
+                    <td>Assigns a unique identifier to each user for analytics purposes</td>
+                    <td>1 year</td>
+                    <td>Analytics (with consent)</td>
+                </tr>
+                <tr>
+                    <td><code>_ym_d</code></td>
+                    <td>Stores the date of the user's first visit to the site</td>
+                    <td>1 year</td>
+                    <td>Analytics (with consent)</td>
+                </tr>
+                <tr>
+                    <td><code>_ym_isad</code></td>
+                    <td>Determines whether the user has ad blockers enabled</td>
+                    <td>2 days</td>
+                    <td>Analytics (with consent)</td>
+                </tr>
+                <tr>
+                    <td><code>_ym_visorc</code></td>
+                    <td>Enables session replay and heatmap functionality</td>
+                    <td>30 minutes</td>
+                    <td>Analytics (with consent)</td>
+                </tr>
+                <tr>
+                    <td><code>_ym_hostIndex</code></td>
+                    <td>Used for load balancing and optimizing analytics data collection</td>
+                    <td>Session</td>
+                    <td>Analytics (with consent)</td>
+                </tr>
+                <tr>
+                    <td><code>_ym_metrika_enabled</code></td>
+                    <td>Indicates whether Yandex Metrica is enabled for the current session</td>
+                    <td>Session</td>
+                    <td>Analytics (with consent)</td>
+                </tr>
+                <tr>
+                    <td><code>_ym_sync</code></td>
+                    <td>Used to synchronize visitor data with Yandex services</td>
+                    <td>1 year</td>
+                    <td>Analytics (with consent)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Yandex Metrica collects aggregated data about page views, visitor geography, device types, and user interactions (e.g., clicks, scroll depth). This data is anonymized where possible and is used solely for improving our website.</p>
+
+        <div class="note-box important">
+            <p><strong>⚠️ Important:</strong> Yandex Metrica cookies are only placed on your device if you give your explicit consent via our cookie banner. You can withdraw your consent at any time.</p>
+        </div>
+
+        <p>For more information about Yandex Metrica's privacy practices, please visit:</p>
+        <ul>
+            <li><a href="https://yandex.com/legal/metrica_eea/" target="_blank" rel="noopener noreferrer">Yandex Metrica Privacy Policy</a></li>
+            <li><a href="https://yandex.com/legal/confidential/" target="_blank" rel="noopener noreferrer">Yandex Privacy Policy</a></li>
+        </ul>
+
+        <h3>C. Our own cookies</h3>
+        <p>We may also place our own cookies for site functionality:</p>
+
+        <table class="cookie-table">
+            <thead>
+                <tr>
+                    <th>Cookie Name</th>
+                    <th>Purpose</th>
+                    <th>Duration</th>
+                    <th>Type</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>cookie_consent</code></td>
+                    <td>Stores your cookie consent preferences</td>
+                    <td>1 year</td>
+                    <td>Necessary</td>
+                </tr>
+                <tr>
+                    <td><code>session_id</code></td>
+                    <td>Maintains your session for site functionality</td>
+                    <td>Session</td>
+                    <td>Necessary</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>4. Your rights and choices</h2>
+        <p>Depending on your jurisdiction, you have specific rights regarding cookies and personal data:</p>
+
+        <h3>For EU residents (GDPR):</h3>
+        <ul>
+            <li>You have the right to give or withdraw your consent at any time.</li>
+            <li>You have the right to access, rectify, or delete your personal data.</li>
+            <li>You can lodge a complaint with your local Data Protection Authority.</li>
+        </ul>
+
+        <h3>For Russian residents (152-FZ):</h3>
+        <ul>
+            <li>You have the right to request information about the processing of your personal data.</li>
+            <li>You can request the deletion or correction of your data.</li>
+            <li>You may restrict processing that does not comply with Russian law.</li>
+        </ul>
+
+        <h3>For California residents (CCPA/CPRA):</h3>
+        <ul>
+            <li>You have the right to know what personal information we collect.</li>
+            <li>You have the right to request deletion of your personal information.</li>
+            <li>You have the right to opt out of the sale of your personal information (we do not sell your data).</li>
+            <li>You have the right to non-discrimination for exercising your rights.</li>
+        </ul>
+
+        <h2>5. How to manage cookies</h2>
+        <p>You can manage or disable cookies in several ways:</p>
+
+        <ul>
+            <li><strong>Browser settings:</strong> Most browsers allow you to block or delete cookies. Find instructions for:
+                <ul>
+                    <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer">Google Chrome</a></li>
+                    <li><a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop" target="_blank" rel="noopener noreferrer">Mozilla Firefox</a></li>
+                    <li><a href="https://support.apple.com/en-us/HT201265" target="_blank" rel="noopener noreferrer">Apple Safari</a></li>
+                    <li><a href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge" target="_blank" rel="noopener noreferrer">Microsoft Edge</a></li>
+                </ul>
+            </li>
+            <li><strong>Cookie banner:</strong> When you first visit our site, we display a cookie banner where you can accept or reject non-essential cookies (including Yandex Metrica).</li>
+            <li><strong>Yandex Metrica opt-out:</strong> Use the official <a href="https://yandex.com/support/metrica/general/opt-out.html" target="_blank" rel="noopener noreferrer">Yandex Metrica opt-out</a> tool.</li>
+            <li><strong>Do Not Track:</strong> Our website respects the "Do Not Track" (DNT) browser setting. If DNT is enabled, we will not place Yandex Metrica analytics cookies.</li>
+        </ul>
+
+        <div class="note-box">
+            <p><strong>📌 Note:</strong> Since GitHub Pages cookies are necessary for hosting, you cannot disable them without affecting site functionality. However, GitHub does not use these cookies for tracking or marketing purposes.</p>
+        </div>
+
+        <h2>6. Third-party data processing</h2>
+
+        <h3>GitHub Pages (hosting provider)</h3>
+        <ul>
+            <li>Privacy policy: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Privacy Statement</a></li>
+            <li>Data location: GitHub stores data on servers in the United States and other countries.</li>
+            <li>Data transfers are covered by Standard Contractual Clauses (SCCs) for GDPR compliance.</li>
+        </ul>
+
+        <h3>Yandex Metrica (analytics)</h3>
+        <ul>
+            <li>Privacy policy: <a href="https://yandex.com/legal/metrica_eea/" target="_blank" rel="noopener noreferrer">Yandex Metrica Privacy Policy</a></li>
+            <li>Data location: Yandex processes data on servers in the European Economic Area (EEA) and the Russian Federation.</li>
+            <li>Data transfers comply with applicable laws, including GDPR requirements for data transfers to Russia.</li>
+        </ul>
+
+        <h2>7. Data retention</h2>
+        <ul>
+            <li><strong>Cookie consent records:</strong> Stored for up to 2 years to demonstrate compliance with GDPR, 152-FZ, and CCPA.</li>
+            <li><strong>Yandex Metrica data:</strong> Aggregated analytics data is retained by Yandex in accordance with their retention policies.</li>
+            <li><strong>GitHub Pages logs:</strong> GitHub retains server logs for a limited period for security and operational purposes.</li>
+        </ul>
+
+        <h2>8. Changes to this policy</h2>
+        <p>We may update this Cookie Policy from time to time to reflect changes in technology, regulations, or our practices. We will notify you of significant changes by posting the updated version on our website with a revised "Last updated" date.</p>
+
+        <h2>9. Contact us</h2>
+        <p>If you have any questions about this Cookie Policy or your privacy rights, please contact us at:</p>
+        <ul>
+            <li>📧 <strong>Email:</strong> <p><noindex><span class="small"><script type="text/javascript" src="https://closedbysamsung.github.io/js/mail.js"></script></span> 
+		<noscript>
+			<span>
+				<strong>Attention!</strong> You have to turn on JavaScript in your browser to use this feature.
+			</span>
+		</noscript>
+		</noindex></p></li>
+        </ul>
+        <p>For EU citizens, you may also contact our GDPR representative at <p><noindex><span class="small"><script type="text/javascript" src="https://closedbysamsung.github.io/js/mail.js"></script></span> 
+		<noscript>
+			<span>
+				<strong>Attention!</strong> You have to turn on JavaScript in your browser to use this feature.
+			</span>
+		</noscript>
+		</noindex></p>.</p>
+
+        <h2>10. Jurisdiction-specific compliance</h2>
+
+        <h3>EU (GDPR)</h3>
+        <p>We process your data based on your explicit consent for non-necessary cookies (including Yandex Metrica). Necessary cookies (including GitHub Pages cookies) are processed based on our legitimate interest. You have the right to withdraw consent at any time through our cookie banner or browser settings.</p>
+
+        <h3>Russia (152-FZ / Федеральный закон от 27 июля 2006 года № 152-ФЗ «О персональных данных» )</h3>
+        <p>We comply with Federal Law No. 152-FZ "On Personal Data." Yandex Metrica processes data in accordance with Russian data protection laws. We obtain your consent where required by law. Your data is stored in accordance with applicable regulations.</p>
+
+        <h3>USA (CCPA/CPRA)</h3>
+        <p>We do not sell your personal information. We collect limited data through Yandex Metrica analytics cookies for performance purposes. California residents have the right to request information about data collection and deletion.</p>
+
+        <h2>11. Consent declaration</h2>
+        <p>By continuing to use our website after accepting our cookie banner, you consent to the use of cookies as described in this policy. If you do not agree, please disable non-essential cookies through your browser settings, use the Yandex Metrica opt-out tool, or refrain from using our site.</p>
+
+        <div class="note-box">
+            <p><strong>Quick opt-out options:</strong></p>
+            <ul style="margin-bottom: 0;">
+                <li>🍪 <a href="https://yandex.com/support/metrica/general/opt-out.html" target="_blank" rel="noopener noreferrer">Yandex Metrica opt-out</a></li>
+                <li>🍪 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Privacy Statement</a></li>
+            </ul>
+        </div>
+
+        <p style="margin-top: 1.5rem; font-size: 0.9rem; color: #6c86a3;">* This Cookie Policy is provided in English for international compliance. Translations may be available upon request.</p>
+    </div>
+
+    <footer>
+        💙 A tribute to Samsung's innovations that are no longer with us. "Closed by Samsung" — open source memorial.
+        <br><b>THIS IS UNOFFICIAL WEBSITE</b>
+        <br>Sources include Wikipedia, Samsung official pages, historical records, etc. Click on any service name for more information.
+        <br>📅 Services are sorted by closing year (most recent first).
+        <br>The “Samsung” name, the “Samsung logo” and all related names, logos, product and service names, designs and slogans are trademarks of Samsung Electronics Co., Ltd. or its affiliates or licensors. 
+        <br>License and source code: <a href="https://github.com/shchurinov/closedbysamsung.github.io">Github</a>
+        <br><br><h3>Donate</h3>
+        <b>BTC</b>: <input type="text" readonly value="bc1qlsvxpqfsh9gge9kn7l7km9clh030sq82vedwaq" id="btc">&nbsp;<button onclick="copyBTC()">Copy</button>
+        <br><b>XMR</b>: <input type="text" readonly value="82TNFpFeUa1WVtdeK5dtGk686GYFJcYHadSC2s7t1SmNdcVt6u5kLDJTxVXCsPATwDZXJCSBV8P61dkbFAmwLnraEvRt4pA" id="xmr">&nbsp;<button onclick="copyXMR()">Copy</button></td>
+        <br><br><a href="#">© <script src="js/year.js">document.write(new Date().getFullYear());</script> I. Shchurinov</a>
+        <br><table class="social-table">
+    <tr>
+        <td>
+            <a href="https://github.com/shchurinov" target="_blank" rel="noopener noreferrer">
+                <img src="https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg" alt="Github" width="20" height="20">
+            </a>
+        </td>
+        <!-- <td>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://static.licdn.com/sc/h/eahiplrwoq61f4uan012ia17i" alt="LinkedIn" width="20" height="20">
+            </a>
+        </td> -->
+        <td>
+            <a href="https://x.com/zapiski_perev" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#1DA1F2">
+                    <path d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"></path>
+                </svg>
+            </a>
+        </td>
+			</tr>
+		</table>
+		<br>
+    </footer>
+</div>
+</body>
+</html>

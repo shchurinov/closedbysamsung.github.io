@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Closed by Samsung | Discontinued Samsung services</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicons/favicon.ico"><!-- 16×16 -->
+    <link rel="apple-touch-icon" href="images/favicons/apple.png"><!-- 180×180 -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicons/android-icon-192x192.png">
+    <meta name="keywords" content="Shut down Samsung services">
+    <meta name="description" content="Closed by Samsung is a digital graveyard documenting discontinued Samsung services, apps, and platforms with closure reasons and sources.">
+    <!-- Mobile -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true"> 
+    <!-- Mobile end -->
+    <script src="js/cookie.js"></script>
+    <script type="text/javascript" src="js/button.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="logo">Closed by Samsung</div>
+        <div class="tagline"><span class="s-mob">&nbsp;&nbsp;&nbsp;</span>Remembering Samsung's discontinued services & products<span class="s-mob">&nbsp;&nbsp;&nbsp;</span></div>
+        <div class="sub">A list of closed, merged, or shut down Samsung projects
+        <br><br><b>THIS IS UNOFFICIAL WEBSITE.
+        <br>This is community-run project not affiliated with, endorsed by, or associated with Samsung Electronics.</b></div>
+    </div>
+
+    <div class="search-section">
+        <div class="search-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="searchInput" placeholder="Search by name, description, reason, or year..." autocomplete="off">
+        </div>
+        <div class="stats" id="statsCounter">Showing: <span id="visibleCount">0</span> / <span id="totalCount">0</span></div>
+    </div>
+
+    <div id="projectsContainer" class="projects-grid"></div>
+
+    <footer>
+        💙 A tribute to Samsung's innovations that are no longer with us. "Closed by Samsung" — open source memorial.
+        <br><b>THIS IS UNOFFICIAL WEBSITE</b>
+        <br>Sources include Wikipedia, Samsung official pages, historical records, etc. Click on any service name for more information.
+        <br>📅 Services are sorted by closing year (most recent first).
+         <br>The “Samsung” name, the “Samsung logo” and all related names, logos, product and service names, designs and slogans are trademarks of Samsung Electronics Co., Ltd. or its affiliates or licensors.
+        <br>License and source code: <a href="https://github.com/shchurinov/closedbysamsung.github.io">Github</a>
+        <br><br><h3>Donate</h3>
+        <b>BTC</b>: <input type="text" readonly value="bc1qlsvxpqfsh9gge9kn7l7km9clh030sq82vedwaq" id="btc">&nbsp;<button onclick="copyBTC()">Copy</button>
+        <br><b>XMR</b>: <input type="text" readonly value="82TNFpFeUa1WVtdeK5dtGk686GYFJcYHadSC2s7t1SmNdcVt6u5kLDJTxVXCsPATwDZXJCSBV8P61dkbFAmwLnraEvRt4pA" id="xmr">&nbsp;<button onclick="copyXMR()">Copy</button></td>
+        <br><br><a href="#">© <script src="js/year.js">document.write(new Date().getFullYear());</script> I. Shchurinov</a>
+        <br><table class="social-table">
+    <tr>
+        <td>
+            <a href="https://github.com/shchurinov" target="_blank" rel="noopener noreferrer">
+                <img src="https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg" alt="Github" width="20" height="20">
+            </a>
+        </td>
+        <!-- <td>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://static.licdn.com/sc/h/eahiplrwoq61f4uan012ia17i" alt="LinkedIn" width="20" height="20">
+            </a>
+        </td> -->
+        <td>
+            <a href="https://x.com/zapiski_perev" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#1DA1F2">
+                    <path d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"></path>
+                </svg>
+            </a>
+        </td>
+			</tr>
+		</table>
+		<br>
+    </footer>
+    <!-- START Cookie-Alert -->
+		<div id="cookie_note">
+			<p>By visiting this website, you consent to the use of cookies and other user data. <a href="/cookie" target="_blank">Read more</a></p>
+			<button class="button cookie_accept btn btn-primary btn-sm">ОК</button>
+		</div>
+	<!-- END Cookie-Alert -->
+</div>
+
+<script src="js/list.js"></script>
+</body>
+</html>
